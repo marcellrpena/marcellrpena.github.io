@@ -1,92 +1,89 @@
-
 /**{
     margin: 0;
     
 }*/
-body{
-    background-color: #292929;
-    color: white;
-    font-family: 'Open Sans', sans-serif;
-    margin: 0;
+body {
+	background-color: #292929;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
 }
 
 
 /* >>>>>>>>>BARRA DE NAVEGAÇÃO<<<<<<<<<<*/
 
-.nav-bar{
-   border-bottom: 1px solid white;
-   position: fixed;
-   top: 0;
-   left: 0;
-   width: 100%;  
-   height: 60px auto;
-   backdrop-filter: blur(25px);
-   margin: 0;
-   z-index: 1; 
-   
+.nav-bar {
+	border-bottom: 1px solid white;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	backdrop-filter: blur(25px);
+	margin: 0;
+	z-index: 1;
+
 }
 
 .name {
-    width: 150px;
-    /*border: 2px solid green;*/
-    margin-left: 40px;
-    text-align: center;
-    float: left;
-    /*display: inline-block;*/
-    vertical-align: middle;
+	width: fit-content;
+	/*border: 2px solid green;*/
+	margin-left: 6%;
+	text-align: center;
+	float: left;
+	/*padding: -4px;*/
 }
 
 .tag-name {
-    display: inline-block;
-    color: red;  
-    /*border: 2px solid blue;*/
-    /*font-size: small;*/
-    font-family: inherit;
-    height: auto;
-    vertical-align: middle;
-    margin: -4px;
-    
+	display: inline-block;
+	vertical-align: middle;
+	color: red;
+	/*border: 2px solid blue;*/
+	font-family: inherit;
+	height: fit-content;
+	/*margin: -4px;*/
+
 }
 
 .title-name {
-    display: inline-block;
-    font-family: 'Lato', sans-serif;
-    font-weight: bold;
-    
+  display: inline-block;
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	/*border: 2px solid red;*/
 }
 
-.index{
-  /*position: absolute;
-  right: 50px;*/
-  float: right; 
-  /*display: inline-block;*/
-  /*border: 2px solid green;*/
-  list-style: none;
-  vertical-align: middle;
-  /*margin-left: 280px;*/
+.index {
+	float: right;
+	list-style: none;
+	/*border: 2px solid green;*/
 }
 
-.index li{
-    /*position: absolute;
+.index li {
+	/*position: absolute;
     right: 50px;*/
-    /*float: right;*/  
-    background-color: #1E1D1D;
-    padding: 4px 8px 4px 10px ;
-    border-left: 5px solid #DD1919;
-    border-radius: 4px;
-    display: inline-block;
-    list-style: none;
-    margin-left: 20px;
-    margin-right: 20px;
- 
+	/*float: right;*/
+	background-color: #1E1D1D;
+	padding: 4px 8px 4px 10px;
+	border-left: 5px solid #DD1919;
+	border-radius: 4px;
+	display: inline-block;
+	list-style: none;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 2%;
 }
-.index ul{
-    padding-left: 0;
+
+.index li:hover {
+	background-color: #383535 ;
 }
-.index a{
-    text-decoration: none;
-    font-family: inherit;
-    color: inherit;
+
+.index ul {
+	padding-left: 0;
+}
+
+.index a {
+	text-decoration: none;
+	font-family: inherit;
+	color: inherit;
 }
 
 /*>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<*/
@@ -94,43 +91,43 @@ body{
 /*>>>>>>>>>>>>>IMAGEM COM DESCRIÇÃO<<<<<<<<<<<<<*/
 
 .imagem {
-    background-image: url("./imagens/code-ga51035b02_1920.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-    margin-top: 65px;
-    height: 400px;
-    width: 100%;
-    align-items: center;
-
-}
-.presentation{
-  
-    border: 4px solid white;
-    width: 370px;
-    backdrop-filter: blur(20px);
-    float: right;
-    margin-right: 50px;
-    margin-top: 40px;
-    vertical-align: middle;
-    padding: 20px;
-   
+	background-image: url("./imagens/code-ga51035b02_1920.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	margin-top: 4%;
+	height: 550px;
+	width: 100%;
 }
 
-.image-text{
-    width: 0 auto;
-    font-family: 'Open Sans', sans-serif;
-    margin-left: 10px;
+
+
+.image-text {
+	width: 0 auto;
+	font-family: 'Open Sans', sans-serif;
+	margin-left: 10px;
+	border: 4px solid white;
+	width: 370px;
+	backdrop-filter: blur(20px);
+	float: right;
+	margin-right: 5%;
+	margin-top: 160px;
+	/*vertical-align: middle;*/
+	padding: 1% 1% 1% 3%;
 }
-.image-text p{
-    font-size: 22px;
+
+.image-text p {
+	font-size: 22px;
+	/*border: 4px solid white;*/
+	width: auto;
 }
 
 /*>>>>>>>>>>>>>>SOBRE MIM<<<<<<<<<<<*/
 
-.sobre{
-    height: 400px;
-    background-color: #1E1D1D;
+.sobre {
+	height: 400px;
+	background-color: #1E1D1D;
 }
-.sobre h1{
-  margin-top: 0;
+
+.sobre h1 {
+	margin-top: 0;
 }
