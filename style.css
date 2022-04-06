@@ -110,6 +110,7 @@ body {
 	backdrop-filter: blur(20px);
 	float: right;
 	margin-right: 4%;
+	margin-left: 4%;
 	margin-top: 160px;
 	/*vertical-align: middle;*/
 	padding: 1% 1% 1% 3%;
