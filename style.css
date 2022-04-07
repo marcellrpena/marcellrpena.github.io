@@ -125,10 +125,44 @@ body {
 /*>>>>>>>>>>>>>>SOBRE MIM<<<<<<<<<<<*/
 
 .sobre {
-	height: 400px;
+	height: auto;
 	background-color: #1E1D1D;
+	margin: 0;
+	padding: 20px;
+	/*border: 2px solid red;*/
 }
 
-.sobre h1 {
-	margin-top: 0;
+.sobre div {
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
 }
+
+.content-hab {
+  background-color: #383535;
+	height: auto;
+	padding: 20px;
+	/*border: 2px solid red;*/
+	/*text-align: center;*/
+}
+
+.hab-header {
+  width: fit-content;
+	margin: 0 auto;
+	/*border: 2px solid red;*/
+	text-align: center;
+}
+.list-hab {
+  /*border: 2px solid red;*/
+	width: fit-content;
+	margin: 0 auto;
+}
+
+
+.hab {
+	display: inline-block;
+	/*border: 2px solid red;*/
+	padding: 10px;
+	vertical-align: top;
+}
+
